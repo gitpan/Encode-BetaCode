@@ -25,11 +25,11 @@ Encode::BetaCode - Perl module for converting to and from Beta Code
 
 =head1 VERSION
 
-Version 0.01
+Version 0.01.1
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.01.1';
 
 =head1 SYNOPSIS
 
@@ -830,7 +830,7 @@ or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue
 I will be notified, and then you'll automatically be notified of progress
 on your bug as I make changes.
 
-Also, the source code is available at GitHub: L<https://github.com/dgkontopoulos/Decode-BetaCode>
+Also, the source code is available at GitHub: L<https://github.com/dgkontopoulos/Encode-BetaCode>
 
 =head1 AUTHOR
 
