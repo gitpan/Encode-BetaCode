@@ -25,11 +25,11 @@ Encode::BetaCode - Perl module for converting to and from Beta Code
 
 =head1 VERSION
 
-Version 0.01.1
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01.1';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
