@@ -25,11 +25,13 @@ Encode::BetaCode - Perl module for converting to and from Beta Code
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
+
+=encoding utf8
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 SYNOPSIS
 
@@ -409,7 +411,7 @@ sub beta_encode
     {
 
         #Uppercase accents and diacritics.#
-        		$input =~ s/Ᾱ/*a&/g;
+        $input =~ s/Ᾱ/*a&/g;
         $input =~ s/Ᾰ/*a'/g;
         $input =~ s/ᾌ/*)\/a|/g;
         $input =~ s/ᾍ/*(\/a|/g;
@@ -506,7 +508,6 @@ sub beta_encode
         $input =~ s/Ὼ/*\\w/g;
         $input =~ s/Ώ/*\/w/g;
         $input =~ s/ῼ/*w|/g;
-
 
         #Lowercase accents and diacritics.#
         $input =~ s/ᾱ/a&/g;

@@ -19,4 +19,6 @@ no_index:
     - inc
 requires:
   perl: 5.006
-version: 0.03
+resources:
+  repository: https://github.com/dgkontopoulos/Encode-BetaCode
+version: 0.04
