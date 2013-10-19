@@ -22,4 +22,4 @@ requires:
   perl: 5.006
 resources:
   repository: https://github.com/dgkontopoulos/Encode-BetaCode
-version: 0.05
+version: 0.06
