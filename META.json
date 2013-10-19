@@ -4,7 +4,7 @@
       "Dimitrios - Georgios Kontopoulos <dgkontopoulos@member.fsf.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.76, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -32,6 +32,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Unicode::Normalize" : "1.17",
             "perl" : "5.006"
          }
       }
@@ -42,5 +43,5 @@
          "url" : "https://github.com/dgkontopoulos/Encode-BetaCode"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
